@@ -27,6 +27,7 @@ body {
     text-decoration: none;
     color: inherit;
     margin: 0 15px; 
+    transition-duration: 0.5s;
 }
 
 .navigation__link--first {
@@ -38,6 +39,12 @@ body {
 
 }
 
+.navigation__link:hover {
+    color: rgb(245, 186, 186);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+}
 .company {
     position: absolute;
     top: 0;
@@ -209,7 +216,14 @@ body {
     font-size: 50px;
     color: crimson;
     margin-bottom: 25px;
+    transition-duration: 0.5s;
 
+}
+
+.services__list-icon:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
 }
 
 .services__list-title {
@@ -253,7 +267,14 @@ body {
        font-size: 50px;
        color: crimson;
        margin-bottom: 25px;
+       transition-duration: 0.5s;
    
+   }
+
+   .contact__list-icon:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
    }
 
    .footer {
@@ -264,4 +285,5 @@ body {
        color: #fff;
        text-align: center;
        padding: 50px 0;
+       letter-spacing: 2px;
    }
