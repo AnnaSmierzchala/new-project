@@ -127,6 +127,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 30px;
     
     
     
@@ -135,7 +136,7 @@ body {
     max-width: 300px;
     max-height: 250px;
     padding: 50px 20px 20px 20px;
-    margin-top: 100px;
+    margin-top: 60px;
     margin-left: 50px;
   
 }
@@ -163,6 +164,7 @@ body {
 .about__description {
     font-size: 18px;
     padding-bottom: 25px;
+    line-height: 1.5;
     
 }
 
@@ -174,4 +176,47 @@ body {
     border-radius: 50px;
     text-transform: uppercase;
 
+}
+
+.services {
+    background: #ddd;
+    padding: 30px;
+}
+
+.services__title {
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+.services__list {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+
+.services__list-item {
+ list-style: none;   
+ padding: 0 50px;
+ text-align: center;
+ flex-basis: 33%;
+}
+
+.services__list-icon {
+    font-size: 50px;
+    color: crimson;
+    margin-bottom: 25px;
+
+}
+
+.services__list-title {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.services__list-subtitle {
+    line-height: 2;
 }
