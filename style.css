@@ -220,3 +220,48 @@ body {
 .services__list-subtitle {
     line-height: 2;
 }
+
+.contact {
+    
+    padding: 30px;
+}
+
+.contact__title {
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+
+}
+
+.contact__list {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact__list-item {
+    list-style: none;   
+    padding: 0 50px;
+    text-align: center;
+    flex-basis: 33%;
+   }
+   
+   .contact__list-icon {
+       font-size: 50px;
+       color: crimson;
+       margin-bottom: 25px;
+   
+   }
+
+   .footer {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       background: #000;
+       color: #fff;
+       text-align: center;
+       padding: 50px 0;
+   }
